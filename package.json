@@ -1,0 +1,29 @@
+{
+  "name": "seneca-newrelic-tracer",
+  "version": "1.0.0",
+  "description": "Seneca plugin for implementing newrelic tracing for each individual service",
+  "main": "newrelic-tracer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ghe.coxautoinc.com:DigitalRetailing/seneca-newrelic-tracer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@makemydeal/eslint-config-dr-services": "latest",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "dependencies": {
+    "newrelic": "^1.38.2"
+  },
+  "peerDependencies": {
+    "newrelic": "^1.38.2"
+  }
+}
